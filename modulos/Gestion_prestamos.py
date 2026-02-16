@@ -1,7 +1,11 @@
-from modulos.datos import cargar_datos, guardar_datos, PRESTAMOS_FILE, HERRAMIENTAS_FILE, USUARIOS_FILE
+from modulos.datos import cargar_datos, guardar_datos, PRESTAMOS_FILE, HERRAMIENTAS_FILE, USUARIOS_FILE, registrar_log
+from modulos.Validacion_roles import validar_permiso
 
 def registrar_prestamo():
 
+    if not validar_permiso(["administrador"]):
+        return
+    
     prestamos = cargar_datos(PRESTAMOS_FILE)
     usuarios = cargar_datos(USUARIOS_FILE)
     herramientas = cargar_datos(HERRAMIENTAS_FILE)
@@ -27,10 +31,12 @@ def registrar_prestamo():
     herramienta = herramientas[id_herramienta]
 
     if herramienta["estado"] != "activa":
+        registrar_log("ERROR", f"Intento de préstamo con herramienta no activa: {herramienta['nombre']}")
         print("La herramienta no está activa.")
         return
 
     if herramienta["cantidad"] < cantidad:
+        registrar_log("ERROR", f"Intento de préstamo con cantidad no disponible: {cantidad} solicitada, {herramienta['cantidad']} disponible")
         print("No hay suficiente cantidad disponible.")
         return
 
@@ -71,6 +77,9 @@ def listar_prestamos():
 
 def registrar_devolucion():
 
+    if not validar_permiso(["administrador"]):
+        return
+    
     prestamos = cargar_datos(PRESTAMOS_FILE)
     herramientas = cargar_datos(HERRAMIENTAS_FILE)
 
@@ -83,6 +92,7 @@ def registrar_devolucion():
     prestamo = prestamos[id_prestamo]
 
     if prestamo["estado"] == "devuelto":
+        registrar_log("ERROR", f"Intento de devolución de préstamo ya devuelto: {id_prestamo}")
         print("Este préstamo ya fue devuelto.")
         return
 
@@ -90,6 +100,7 @@ def registrar_devolucion():
     cantidad = prestamo["cantidad"]
 
     if id_herramienta not in herramientas:
+        registrar_log("ERROR", f"Intento de préstamo con herramienta no existente: {id_herramienta}")
         print(" La herramienta asociada ya no existe en el sistema.")
         return
 
