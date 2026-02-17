@@ -10,3 +10,6 @@ Reportes y consultas
 Registro de eventos (logs)
 Persistencia de datos en archivos JSON
 Control de acceso por rol
+
+## link video explicativo
+https://drive.google.com/file/d/1KmujlJDvo2CdsBoHc0hcvKbevqZshKlk/view?usp=sharing
