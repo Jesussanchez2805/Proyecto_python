@@ -1,0 +1,119 @@
+{
+    "PRES-001": {
+        "usuario": "002",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-01-10",
+        "fecha_estimada_devolucion": "2026-01-20",
+        "estado": "devuelto",
+        "observaciones": "Uso para reparacion de pared"
+    },
+    "PRES-002": {
+        "usuario": "003",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-01",
+        "fecha_estimada_devolucion": "2026-02-10",
+        "estado": "activo",
+        "observaciones": "Instalacion de estantes"
+    },
+    "PRES-003": {
+        "usuario": "004",
+        "herramienta": "H002",
+        "cantidad": 1,
+        "fecha_inicio": "2026-01-15",
+        "fecha_estimada_devolucion": "2026-01-25",
+        "estado": "activo",
+        "observaciones": "Corte de madera para proyecto"
+    },
+    "PRES-004": {
+        "usuario": "002",
+        "herramienta": "H003",
+        "cantidad": 2,
+        "fecha_inicio": "2026-01-05",
+        "fecha_estimada_devolucion": "2026-01-08",
+        "estado": "devuelto",
+        "observaciones": "Reparacion de cerca"
+    },
+    "PRES-005": {
+        "usuario": "005",
+        "herramienta": "H003",
+        "cantidad": 3,
+        "fecha_inicio": "2026-02-05",
+        "fecha_estimada_devolucion": "2026-02-28",
+        "estado": "activo",
+        "observaciones": "Obra de ampliacion"
+    },
+    "PRES-006": {
+        "usuario": "003",
+        "herramienta": "H004",
+        "cantidad": 1,
+        "fecha_inicio": "2026-01-20",
+        "fecha_estimada_devolucion": "2026-01-22",
+        "estado": "devuelto",
+        "observaciones": "Pintura de techo"
+    },
+    "PRES-007": {
+        "usuario": "006",
+        "herramienta": "H006",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-10",
+        "fecha_estimada_devolucion": "2026-02-12",
+        "estado": "activo",
+        "observaciones": "Pulido de rejas"
+    },
+    "PRES-008": {
+        "usuario": "002",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-14",
+        "fecha_estimada_devolucion": "2026-02-16",
+        "estado": "activo",
+        "observaciones": "Generado desde solicitud SOL-003."
+    },
+    "PRES-009": {
+        "usuario": "004",
+        "herramienta": "H010",
+        "cantidad": 1,
+        "fecha_inicio": "2026-01-28",
+        "fecha_estimada_devolucion": "2026-01-30",
+        "estado": "devuelto",
+        "observaciones": "Corte de cesped zona comun"
+    },
+    "PRES-010": {
+        "usuario": "005",
+        "herramienta": "H010",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-03",
+        "fecha_estimada_devolucion": "2026-02-05",
+        "estado": "devuelto",
+        "observaciones": "Mantenimiento jardin"
+    },
+    "PRES-011": {
+        "usuario": "006",
+        "herramienta": "H007",
+        "cantidad": 2,
+        "fecha_inicio": "2026-02-08",
+        "fecha_estimada_devolucion": "2026-02-09",
+        "estado": "devuelto",
+        "observaciones": "Arreglo de tuberia"
+    },
+    "PRES-012": {
+        "usuario": "003",
+        "herramienta": "H002",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-15",
+        "fecha_estimada_devolucion": "2026-02-17",
+        "estado": "activo",
+        "observaciones": "Corte de tablas para closet"
+    },
+    "PRES-013": {
+        "usuario": "002",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-19",
+        "fecha_estimada_devolucion": "2026-02-21",
+        "estado": "activo",
+        "observaciones": "Generado desde solicitud SOL-007. ninguna"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "H001": {
+        "nombre": "Taladro Inalambrico",
+        "categoria": "Electricas",
+        "cantidad": 0,
+        "estado": "activa",
+        "valor_estimado": 250000
+    },
+    "H002": {
+        "nombre": "Sierra Circular",
+        "categoria": "Electricas",
+        "cantidad": 2,
+        "estado": "activa",
+        "valor_estimado": 380000
+    },
+    "H003": {
+        "nombre": "Martillo",
+        "categoria": "Manuales",
+        "cantidad": 8,
+        "estado": "activa",
+        "valor_estimado": 45000
+    },
+    "H004": {
+        "nombre": "Escalera Aluminio",
+        "categoria": "Acceso",
+        "cantidad": 2,
+        "estado": "activa",
+        "valor_estimado": 180000
+    },
+    "H005": {
+        "nombre": "Nivel de Burbuja",
+        "categoria": "Medicion",
+        "cantidad": 5,
+        "estado": "activa",
+        "valor_estimado": 35000
+    },
+    "H006": {
+        "nombre": "Pulidora Angular",
+        "categoria": "Electricas",
+        "cantidad": 1,
+        "estado": "activa",
+        "valor_estimado": 210000
+    },
+    "H007": {
+        "nombre": "Llave Inglesa",
+        "categoria": "Manuales",
+        "cantidad": 6,
+        "estado": "activa",
+        "valor_estimado": 28000
+    },
+    "H008": {
+        "nombre": "Compresor de Aire",
+        "categoria": "Electricas",
+        "cantidad": 0,
+        "estado": "en reparacion",
+        "valor_estimado": 520000
+    },
+    "H009": {
+        "nombre": "Destornillador Set",
+        "categoria": "Manuales",
+        "cantidad": 4,
+        "estado": "activa",
+        "valor_estimado": 22000
+    },
+    "H010": {
+        "nombre": "Cortadora de Cesped",
+        "categoria": "Jardineria",
+        "cantidad": 2,
+        "estado": "activa",
+        "valor_estimado": 650000
+    }
+}

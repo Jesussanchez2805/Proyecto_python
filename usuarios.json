@@ -1,0 +1,44 @@
+{
+    "001": {
+        "nombres": "Jesus",
+        "apellidos": "Sanchez",
+        "telefono": "3215299849",
+        "direccion": "Mz 1 C3",
+        "tipo_usuario": "administrador"
+    },
+    "002": {
+        "nombres": "Maria",
+        "apellidos": "Lopez",
+        "telefono": "3101234567",
+        "direccion": "Mz 2 C5",
+        "tipo_usuario": "residente"
+    },
+    "003": {
+        "nombres": "Carlos",
+        "apellidos": "Gutierrez",
+        "telefono": "3209876543",
+        "direccion": "Mz 3 C1",
+        "tipo_usuario": "residente"
+    },
+    "004": {
+        "nombres": "Ana",
+        "apellidos": "Martinez",
+        "telefono": "3154567890",
+        "direccion": "Mz 1 C7",
+        "tipo_usuario": "residente"
+    },
+    "005": {
+        "nombres": "Luis",
+        "apellidos": "Perez",
+        "telefono": "3006543210",
+        "direccion": "Mz 4 C2",
+        "tipo_usuario": "residente"
+    },
+    "006": {
+        "nombres": "Sandra",
+        "apellidos": "Rojas",
+        "telefono": "3187654321",
+        "direccion": "Mz 2 C8",
+        "tipo_usuario": "residente"
+    }
+}

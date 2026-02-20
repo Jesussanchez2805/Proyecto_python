@@ -1,0 +1,79 @@
+{
+    "SOL-001": {
+        "usuario": "002",
+        "herramienta": "H005",
+        "cantidad": 2,
+        "fecha_inicio": "2026-02-20",
+        "fecha_estimada_devolucion": "2026-02-23",
+        "motivo": "Nivelar piso del patio",
+        "estado": "pendiente",
+        "fecha_solicitud": "2026-02-18 09:15:00",
+        "observaciones_admin": ""
+    },
+    "SOL-002": {
+        "usuario": "004",
+        "herramienta": "H004",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-21",
+        "fecha_estimada_devolucion": "2026-02-22",
+        "motivo": "Pintura de salon",
+        "estado": "pendiente",
+        "fecha_solicitud": "2026-02-18 11:30:00",
+        "observaciones_admin": ""
+    },
+    "SOL-003": {
+        "usuario": "002",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-14",
+        "fecha_estimada_devolucion": "2026-02-16",
+        "motivo": "Perforacion de pared para instalacion electrica",
+        "estado": "aprobada",
+        "fecha_solicitud": "2026-02-13 08:00:00",
+        "observaciones_admin": "Aprobado. Devolver en buen estado."
+    },
+    "SOL-004": {
+        "usuario": "005",
+        "herramienta": "H008",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-19",
+        "fecha_estimada_devolucion": "2026-02-20",
+        "motivo": "Inflado de llantas vehiculo",
+        "estado": "rechazada",
+        "fecha_solicitud": "2026-02-17 14:45:00",
+        "observaciones_admin": "Herramienta en reparacion, no disponible."
+    },
+    "SOL-005": {
+        "usuario": "006",
+        "herramienta": "H009",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-22",
+        "fecha_estimada_devolucion": "2026-02-23",
+        "motivo": "Armado de mueble",
+        "estado": "pendiente",
+        "fecha_solicitud": "2026-02-19 07:50:00",
+        "observaciones_admin": ""
+    },
+    "SOL-006": {
+        "usuario": "003",
+        "herramienta": "H007",
+        "cantidad": 2,
+        "fecha_inicio": "2026-02-20",
+        "fecha_estimada_devolucion": "2026-02-21",
+        "motivo": "Reparacion de grifo cocina",
+        "estado": "pendiente",
+        "fecha_solicitud": "2026-02-19 08:30:00",
+        "observaciones_admin": ""
+    },
+    "SOL-007": {
+        "usuario": "002",
+        "herramienta": "H001",
+        "cantidad": 1,
+        "fecha_inicio": "2026-02-19",
+        "fecha_estimada_devolucion": "2026-02-21",
+        "motivo": "X",
+        "estado": "aprobada",
+        "fecha_solicitud": "2026-02-19 21:46:44",
+        "observaciones_admin": "ninguna"
+    }
+}

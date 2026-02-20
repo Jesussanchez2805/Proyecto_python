@@ -6,6 +6,7 @@ from modulos.Gestion_usuarios import menu_usuarios
 from modulos import Validacion_roles
 from modulos.Gestion_herramientas import menu_herramientas
 from modulos.Gestion_prestamos import menu_prestamos
+from modulos.Gestion_solicitudes import menu_solicitudes          # ← NUEVO
 from modulos.datos import registrar_log
 from modulos.Consultas_Reportes import menu_reportes
 
@@ -29,9 +30,10 @@ Usuario: {Validacion_roles.usuario_actual['nombre']} ({Validacion_roles.usuario_
 1. Gestión de Herramientas
 2. Gestión de Usuarios
 3. Gestión de Préstamos
-4. Consultas y Reportes
-5. Cerrar sesión
-6. Salir del sistema
+4. Solicitudes de Herramientas
+5. Consultas y Reportes
+6. Cerrar sesión
+7. Salir del sistema
 """)
 
         opcion = input("Seleccione una opción: ").strip()
@@ -43,11 +45,13 @@ Usuario: {Validacion_roles.usuario_actual['nombre']} ({Validacion_roles.usuario_
         elif opcion == "3":
             menu_prestamos()
         elif opcion == "4":
-            menu_reportes()
+            menu_solicitudes()
         elif opcion == "5":
+            menu_reportes()
+        elif opcion == "6":
             registrar_log("INFORMACION", f"Cierre de sesión - ID: {Validacion_roles.usuario_actual['id']}")
             break
-        elif opcion == "6":
+        elif opcion == "7":
             registrar_log("INFORMACION", "Sistema finalizado manualmente")
             print("Saliendo del sistema...")
             exit()

@@ -7,8 +7,9 @@ el disco
 HERRAMIENTAS_FILE = "herramientas.json"
 USUARIOS_FILE     = "usuarios.json"
 PRESTAMOS_FILE    = "prestamos.json"
+SOLICITUDES_FILE  = "solicitudes.json"          # ← NUEVO
 LOGS_FILE         = "logs.txt"
-ROLES_PERMITIDOS = ["administrador", "residente"]
+ROLES_PERMITIDOS  = ["administrador", "residente"]
 
 import json
 from datetime import datetime
@@ -23,7 +24,7 @@ def cargar_datos(nom_archivo):
 def guardar_datos(datos, nom_archivo):
     try:
         with open(nom_archivo, "w") as archivo:
-            json.dump(datos, archivo)
+            json.dump(datos, archivo, indent=4, ensure_ascii=False)
     except Exception:
         datos = {}
 
@@ -37,4 +38,3 @@ def registrar_log(tipo, mensaje):
 
     with open(LOGS_FILE, "a") as archivo:
         archivo.write(linea)
-

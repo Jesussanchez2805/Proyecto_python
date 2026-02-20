@@ -1,0 +1,9 @@
+[2026-02-19 21:39:43] INFORMACION - Sistema finalizado manualmente
+[2026-02-19 21:40:10] INFO - Usuario inició sesión - ID: 001
+[2026-02-19 21:43:03] INFO - Usuario inició sesión - ID: 002
+[2026-02-19 21:45:55] INFO - Usuario inició sesión - ID: 002
+[2026-02-19 21:46:44] INFO - Solicitud creada: SOL-007 por usuario 002
+[2026-02-19 21:46:49] INFORMACION - Cierre de sesión - ID: 002
+[2026-02-19 21:46:53] INFO - Usuario inició sesión - ID: 001
+[2026-02-19 21:47:25] INFO - Solicitud SOL-007 APROBADA por 001. Préstamo generado: PRES-013
+[2026-02-19 21:47:55] INFORMACION - Sistema finalizado manualmente
