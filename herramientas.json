@@ -3,7 +3,7 @@
         "nombre": "Taladro Inalambrico",
         "categoria": "Electricas",
         "cantidad": 0,
-        "estado": "activa",
+        "estado": "en reparacion",
         "valor_estimado": 250000
     },
     "H002": {

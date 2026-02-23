@@ -1,0 +1,14 @@
+{
+    "H001": {
+        "nombre": "Taladro Inalambrico",
+        "fecha_inicio": "2026-02-24",
+        "fecha_estimada_fin": "2026-02-27",
+        "observaciones": "rotura de eje"
+    },
+    "H008": {
+        "nombre": "Compresor de Aire",
+        "fecha_inicio": "2026-02-24",
+        "fecha_estimada_fin": "2026-02-26",
+        "observaciones": "Fallo de motor"
+    }
+}

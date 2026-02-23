@@ -35,7 +35,7 @@ def _generar_id_solicitud(solicitudes: dict) -> str:
 def _generar_id_prestamo(prestamos: dict) -> str:
     """Genera un ID único para el préstamo cuando se aprueba la solicitud."""
     if not prestamos:
-        return "PRES-001"
+        return "PRES-001" 
     numeros = []
     for k in prestamos:
         if k.startswith("PRES-"):

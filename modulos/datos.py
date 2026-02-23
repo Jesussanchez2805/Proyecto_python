@@ -10,6 +10,7 @@ PRESTAMOS_FILE    = "prestamos.json"
 SOLICITUDES_FILE  = "solicitudes.json"          # ← NUEVO
 LOGS_FILE         = "logs.txt"
 ROLES_PERMITIDOS  = ["administrador", "residente"]
+REPARACIONES_FILE = "reparaciones.json" #examen
 
 import json
 from datetime import datetime
